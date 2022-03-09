@@ -25,7 +25,7 @@ function removeDuplicate(arr) {
 
   for (let key in objMapping) {
     console.log(key);
-    console.log(objMapping[key]);
+    // console.log(objMapping[key]);
     if (objMapping[key] === 1) {
       outputArr.push(key);
     }

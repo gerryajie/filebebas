@@ -17,4 +17,4 @@ function catAndMouse(x, y, z) {
     return "Mouse C";
   }
 }
-// catAndMouse(x,y,z);
+catAndMouse(5, 6, 8);

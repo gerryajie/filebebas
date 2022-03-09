@@ -1,6 +1,6 @@
 function alphabetPosition(text) {
   let result = "";
-  for (var i = 0; i < text.length; i++) {
+  for (let i = 0; i < text.length; i++) {
     let code = text.toUpperCase().charCodeAt(i);
     if (code > 64 && code < 91) result += code - 64 + " ";
   }
